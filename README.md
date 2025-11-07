@@ -1,6 +1,6 @@
 # Zavata Website
 
-🚀 **Live Site:** [https://zavata-cm6geou34-harshith2810s-projects.vercel.app](https://zavata-cm6geou34-harshith2810s-projects.vercel.app)
+🚀 **Live Site:** [https://zavata-website.vercel.app](https://zavata-website.vercel.app)
 
 This is a [Next.js](https://nextjs.org) project using **Tailark Pro** design system.
 
