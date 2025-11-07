@@ -19,9 +19,9 @@ export default function HowItWorksSeven() {
                 <div className="@container py-16 md:py-20">
                     <div className="mx-auto w-full max-w-5xl">
                         <div className="@4xl:text-left text-center">
-                            <h2 className="text-foreground text-3xl font-semibold">Simple Three-Step Workflow</h2>
+                            <h2 className="text-foreground text-3xl font-semibold">How Zavata Works</h2>
                             <p className="text-muted-foreground mt-4 text-balance text-lg">
-                                Experience our streamlined approach to data analysis that empowers your team to make <span className="text-foreground">informed decisions</span> quickly and efficiently.
+                                From data collection to content distribution, Zavata handles your entire <span className="text-foreground">marketing workflow</span> automatically.
                             </p>
                         </div>
                         <div className="@max-4xl:max-w-sm relative mx-auto mt-12">
@@ -34,8 +34,8 @@ export default function HowItWorksSeven() {
                                         <CampaignIllustration />
                                     </div>
                                     <div>
-                                        <h3 className="text-foreground font-semibold">Secure Messaging</h3>
-                                        <p className="text-muted-foreground mt-2">End-to-end encrypted communications for enterprise.</p>
+                                        <h3 className="text-foreground font-semibold">Gather Inputs</h3>
+                                        <p className="text-muted-foreground mt-2">Connect meeting notes, Slack conversations, web data, and newsletters via MCP integrations.</p>
                                     </div>
                                 </div>
                                 <div className="@4xl:border-r row-span-2 grid grid-rows-subgrid p-8">
@@ -51,8 +51,8 @@ export default function HowItWorksSeven() {
                                     </div>
 
                                     <div>
-                                        <h3 className="text-foreground font-semibold">Analytics Dashboard</h3>
-                                        <p className="text-muted-foreground mt-2">Data visualization tools to transform complex metrics into insights.</p>
+                                        <h3 className="text-foreground font-semibold">AI Content Creation</h3>
+                                        <p className="text-muted-foreground mt-2">Generate social posts, videos, newsletters, blog articles, and investor updates automatically.</p>
                                     </div>
                                 </div>
                                 <div className="row-span-2 grid grid-rows-subgrid p-8">
@@ -64,8 +64,8 @@ export default function HowItWorksSeven() {
                                     </div>
 
                                     <div className="@4xl:mt-0 mt-8">
-                                        <h3 className="text-foreground font-semibold">Resource Monitoring</h3>
-                                        <p className="text-muted-foreground mt-2">Real-time tracking of system performance to optimize efficiency.</p>
+                                        <h3 className="text-foreground font-semibold">Automated Distribution</h3>
+                                        <p className="text-muted-foreground mt-2">Content automatically posted to LinkedIn, Twitter, blogs, and all your marketing channels.</p>
                                     </div>
                                 </div>
                             </div>

@@ -26,13 +26,13 @@ export default function IntegrationsSection() {
                 <div className="bg-muted @container py-16 md:py-20">
                     <div className="mx-auto max-w-5xl px-6">
                         <div className="mx-auto max-w-xl text-center">
-                            <h2 className="text-balance text-3xl font-semibold md:text-5xl md:tracking-tight">Seamless Integration</h2>
-                            <p className="text-muted-foreground mb-6 mt-4 text-balance text-lg">Seamlessly integrate with over 200+ tools and platforms to streamline your workflow and boost productivity.</p>
+                            <h2 className="text-balance text-3xl font-semibold md:text-5xl md:tracking-tight">Powerful MCP Integrations</h2>
+                            <p className="text-muted-foreground mb-6 mt-4 text-balance text-lg">Pull content from meeting notes (Fireflies, Otter, Granola), Slack conversations, web scraping, newsletters, and more to fuel your marketing automation.</p>
                             <Button
                                 variant="outline"
                                 size="sm"
                                 asChild>
-                                <Link href="#">Get Started</Link>
+                                <Link href="#">Explore Integrations</Link>
                             </Button>
                         </div>
                         <div className="@max-xl:max-w-xs @xl:grid-cols-9 relative mx-auto mt-12 grid max-w-2xl grid-cols-4 gap-4">
@@ -46,7 +46,7 @@ export default function IntegrationsSection() {
                             />
 
                             <IntegrationsGroup
-                                label="Development"
+                                label="Meeting Notes"
                                 className="@max-xl:row-start-3">
                                 <div className="grid grid-cols-2 gap-2">
                                     <IntegrationCard>
@@ -65,7 +65,7 @@ export default function IntegrationsSection() {
                             />
 
                             <IntegrationsGroup
-                                label="LLMs"
+                                label="AI Video & Content"
                                 className="@max-xl:col-span-4 @max-xl:w-3/4 @max-xl:row-start-1 @max-xl:place-self-center col-span-3">
                                 <div className="grid grid-cols-3 gap-2">
                                     <IntegrationCard>
@@ -85,7 +85,7 @@ export default function IntegrationsSection() {
                                 className="@max-xl:hidden"
                             />
 
-                            <IntegrationsGroup label="Hosting">
+                            <IntegrationsGroup label="Distribution">
                                 <div className="grid grid-cols-2 gap-2">
                                     <IntegrationCard>
                                         <Cloudflare className="!w-7" />

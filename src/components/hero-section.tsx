@@ -35,7 +35,7 @@ export default function HeroSection() {
                                         aria-hidden="true"
                                         className="absolute bottom-1 right-1 size-[3px] rounded-full bg-gray-950/20"></div>
                                     <div className="relative flex h-fit items-center gap-2 rounded-full bg-white px-3 py-1 shadow">
-                                        <span className="text-title text-sm">Tailark raises $12M series B</span>
+                                        <span className="text-title text-sm">Zavata raises Pre-Seed funding</span>
                                         <span className="block h-3 w-px bg-gray-200"></span>
                                         <Link
                                             href="#"
@@ -46,16 +46,16 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <div className="mx-auto mt-8 max-w-3xl text-center md:mt-10">
-                                <h1 className="text-foreground text-balance text-4xl font-medium sm:text-5xl lg:text-6xl">Transform your Sales with Data-Driven Insights</h1>
-                                <p className="text-muted-foreground mx-auto mb-8 mt-4 max-w-xl text-balance text-lg">Efficiently manage your sales team with our innovative tools. Enhance productivity, and achieve your sales!</p>
+                                <h1 className="text-foreground text-balance text-4xl font-medium sm:text-5xl lg:text-6xl">Your Complete AI Marketing Agency Replacement</h1>
+                                <p className="text-muted-foreground mx-auto mb-8 mt-4 max-w-xl text-balance text-lg">Automatically create and distribute marketing content across all channels. From social media posts to videos, newsletters to blog articles - Zavata handles it all.</p>
                                 <div className="flex items-center justify-center gap-4">
                                     <Button asChild>
-                                        <Link href="#">Start Building</Link>
+                                        <Link href="#">Get Started Free</Link>
                                     </Button>
                                     <Button
                                         asChild
                                         variant="outline">
-                                        <Link href="#">Book a demo</Link>
+                                        <Link href="#">See it in action</Link>
                                     </Button>
                                 </div>
                             </div>
@@ -73,23 +73,23 @@ export default function HeroSection() {
                                 <SquareDecorator className="-bottom-[3.5px] right-3 -translate-x-[1.5px] sm:right-5 md:right-11" />
                                 <div className="bg-linear-to-b to-foreground/[0.025] relative border-x">
                                     <div className="absolute inset-0">
-                                        <Image
-                                            className="size-full"
-                                            src="https://res.cloudinary.com/dohqjvu9k/image/upload/v1755171585/oxy-main_aimf7b.png"
-                                            alt="Oxymor overview"
-                                            width={1280}
-                                            height={720}
-                                            sizes="(max-width: 640px) 768px, (max-width: 768px) 1024px, (max-width: 1024px) 1280px, 1280px"
-                                        />
-                                    </div>
                                     <Image
-                                        className="mix-blend-multiply"
-                                        src="https://res.cloudinary.com/dohqjvu9k/image/upload/v1755171584/oxy-nav_qqwzss.png"
-                                        alt="Oxymor overview"
+                                        className="size-full"
+                                        src="https://res.cloudinary.com/dohqjvu9k/image/upload/v1755171585/oxy-main_aimf7b.png"
+                                        alt="Zavata AI Marketing Platform"
                                         width={1280}
                                         height={720}
                                         sizes="(max-width: 640px) 768px, (max-width: 768px) 1024px, (max-width: 1024px) 1280px, 1280px"
                                     />
+                                </div>
+                                <Image
+                                    className="mix-blend-multiply"
+                                    src="https://res.cloudinary.com/dohqjvu9k/image/upload/v1755171584/oxy-nav_qqwzss.png"
+                                    alt="Zavata Dashboard"
+                                    width={1280}
+                                    height={720}
+                                    sizes="(max-width: 640px) 768px, (max-width: 768px) 1024px, (max-width: 1024px) 1280px, 1280px"
+                                />
                                 </div>
                             </div>
                         </div>

@@ -26,20 +26,20 @@ interface MobileLink {
 const features: FeatureLink[] = [
     {
         href: '#ux',
-        name: 'AI',
-        description: 'Generate Insights and Recommendations',
+        name: 'AI Content Creation',
+        description: 'Generate marketing content automatically',
         icon: <Sparkles className="stroke-foreground fill-green-500/15" />,
     },
     {
         href: '#performance',
-        name: 'Performance',
-        description: 'Lightning-fast load times',
+        name: 'Auto-Distribution',
+        description: 'Publish across all channels instantly',
         icon: <SquareActivity className="stroke-foreground fill-indigo-500/15" />,
     },
     {
         href: '#security',
-        name: 'Security',
-        description: 'Keep your data safe and secure',
+        name: 'Brand Consistency',
+        description: 'Maintain your voice across content',
         icon: <Shield className="stroke-foreground fill-blue-500/15" />,
     },
 ]
@@ -47,38 +47,38 @@ const features: FeatureLink[] = [
 const moreFeatures: FeatureLink[] = [
     {
         href: '#ux',
-        name: 'Automation',
-        description: 'Automate your workflow',
+        name: 'Video Generation',
+        description: 'Create marketing videos with AI',
         icon: <Bot className="stroke-foreground fill-yellow-500/15" />,
     },
     {
         href: '#performance',
-        name: 'Scalability',
-        description: 'Scale your application',
+        name: 'Social Media Posts',
+        description: 'LinkedIn, Twitter, and more',
         icon: <Rocket className="stroke-foreground fill-orange-500/15" />,
     },
     {
         href: '#security',
-        name: 'Backup',
-        description: 'Keep your data backed up',
+        name: 'Newsletters',
+        description: 'Automated email campaigns',
         icon: <Cloud className="stroke-foreground fill-teal-500/15" />,
     },
     {
         href: '#security',
-        name: 'Security',
-        description: 'Keep your data safe and secure',
+        name: 'Blog Articles',
+        description: 'SEO-optimized content generation',
         icon: <Shield className="stroke-foreground fill-blue-500/15" />,
     },
     {
         href: '#support',
-        name: 'Partnerships',
-        description: 'Get help when you need it',
+        name: 'Investor Updates',
+        description: 'Professional stakeholder communications',
         icon: <Gem className="stroke-foreground fill-pink-500/15" />,
     },
     {
         href: '#mobile',
-        name: 'Mobile App',
-        description: 'Get help when you need it',
+        name: 'Analytics',
+        description: 'Track content performance',
         icon: <Smartphone className="stroke-foreground fill-zinc-500/15" />,
     },
 ]
@@ -86,33 +86,33 @@ const moreFeatures: FeatureLink[] = [
 const useCases: FeatureLink[] = [
     {
         href: '#ux',
-        name: 'Marketplace',
-        description: 'Find and buy AI tools',
+        name: 'Startups',
+        description: 'Replace your marketing agency',
         icon: <ShoppingBag className="stroke-foreground fill-emerald-500/25" />,
     },
     {
         href: '#security',
-        name: 'API Integration',
-        description: 'Integrate AI tools into your app',
+        name: 'MCP Integrations',
+        description: 'Connect Slack, meetings, and more',
         icon: <Cpu className="stroke-foreground fill-blue-500/15" />,
     },
     {
         href: '#support',
-        name: 'Partnerships',
-        description: 'Get help when you need it',
+        name: 'Enterprise',
+        description: 'Scale your marketing automation',
         icon: <Gem className="stroke-foreground fill-pink-500/15" />,
     },
     {
         href: '#mobile',
-        name: 'Mobile App',
-        description: 'Get help when you need it',
+        name: 'Agencies',
+        description: 'Power multiple client campaigns',
         icon: <Smartphone className="stroke-foreground fill-zinc-500/15" />,
     },
 ]
 
 const contentLinks: FeatureLink[] = [
-    { name: 'Announcements', href: '#link', icon: <BookOpen className="stroke-foreground fill-purple-500/15" /> },
-    { name: 'Resources', href: '#link', icon: <Croissant className="stroke-foreground fill-red-500/15" /> },
+    { name: 'Use Cases', href: '#link', icon: <BookOpen className="stroke-foreground fill-purple-500/15" /> },
+    { name: 'Documentation', href: '#link', icon: <Croissant className="stroke-foreground fill-red-500/15" /> },
     { name: 'Blog', href: '#link', icon: <Notebook className="stroke-foreground fill-zinc-500/15" /> },
 ]
 
@@ -320,9 +320,9 @@ const NavMenu = () => {
                                         <NavigationMenuLink
                                             asChild
                                             className="text-foreground p-0 text-sm font-medium before:absolute before:inset-0 hover:bg-transparent focus:bg-transparent">
-                                            <Link href="#">Multimodal Learning</Link>
+                                            <Link href="#">All-in-One Platform</Link>
                                         </NavigationMenuLink>
-                                        <p className="text-foreground/60 line-clamp-1 text-xs">Explore how our platform integrates text, image, and audio processing into a unified framework.</p>
+                                        <p className="text-foreground/60 line-clamp-1 text-xs">From meeting notes to published content - Zavata handles your entire marketing workflow automatically.</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,8 +1,8 @@
-# Zavata Website
+# Zavata - AI Marketing Automation Platform
 
 🚀 **Live Site:** [https://zavata-website.vercel.app](https://zavata-website.vercel.app)
 
-This is a [Next.js](https://nextjs.org) project using **Tailark Pro** design system.
+This is a [Next.js](https://nextjs.org) project for Zavata, the complete AI marketing agency replacement that automatically creates and distributes marketing content across all channels.
 
 ## 📐 Design System
 
