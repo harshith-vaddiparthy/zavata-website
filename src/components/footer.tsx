@@ -40,7 +40,7 @@ export default function Footer() {
             <div>
               <Logo />
               <p className="mt-4 text-sm text-muted-foreground">
-                Build better products with modern design and AI-powered tools.
+                Your complete AI marketing agency replacement. Automatically create and distribute content across all channels.
               </p>
             </div>
             

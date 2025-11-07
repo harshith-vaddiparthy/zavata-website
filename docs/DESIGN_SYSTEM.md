@@ -1,7 +1,7 @@
-# Design System Documentation
+# Zavata Design System Documentation
 
 ## Overview
-This document outlines the design system and styling patterns used throughout the website. All components must follow these patterns to maintain visual consistency.
+This document outlines the design system and styling patterns used throughout the Zavata website. All components must follow these patterns to maintain visual consistency.
 
 ---
 
@@ -345,7 +345,7 @@ export default function SectionComponent() {
 
 ---
 
-## Color System (Tailark Theme)
+## Color System
 
 ### CSS Variables
 ```css
@@ -450,7 +450,7 @@ import { motion, AnimatePresence } from 'motion/react'
 </AnimatePresence>
 ```
 
-### CSS Animations (Tailark Theme)
+### CSS Animations
 Available animations defined in `globals.css`:
 - `animate-accordion-down/up`
 - `animate-fade-in/out`
@@ -597,7 +597,7 @@ The last row of a grid should NEVER have bottom borders since:
 ```
 src/
 ├── app/
-│   ├── globals.css          # Tailark theme + custom CSS
+│   ├── globals.css          # Zavata theme + custom CSS
 │   ├── layout.tsx           # Root layout
 │   └── page.tsx             # Home page
 ├── components/
@@ -622,7 +622,7 @@ src/
 
 ---
 
-## Tailark Pro Integration
+## Design System Integration
 
 ### Registry Configuration
 File: `components.json`
@@ -647,7 +647,7 @@ npx shadcn@latest add @tailark-pro/component-name
 ### API Key
 - Stored in `.env`: `TAILARK_API_KEY=your_key`
 - Never commit to version control
-- Managed from Tailark Pro dashboard
+- Managed from design system configuration
 
 ---
 
@@ -668,7 +668,7 @@ npx shadcn@latest add @tailark-pro/component-name
 
 ### Styling
 1. **Tailwind First:** Use Tailwind classes, not custom CSS
-2. **Theme Variables:** Use CSS variables from Tailark theme
+2. **Theme Variables:** Use CSS variables from Zavata theme
 3. **Dark Mode:** Support via theme variables (automatic)
 4. **Responsive:** Test all breakpoints
 
@@ -750,7 +750,7 @@ Before finishing any section, verify:
   - Enhanced common mistakes section with real examples
   - Added T-Shape checklist for quality assurance
 - **v1.0** - Initial design system documentation
-  - Tailark Pro integration complete
+  - Design system integration complete
   - Hero section, Logo Cloud, Features section implemented
   - Border system and decorator pattern established
 
@@ -841,6 +841,6 @@ The `border-x` container is missing `py-16` vertical padding.
 ## Contact & Support
 For questions about this design system:
 - Review this documentation first
-- Check Tailark Pro documentation: https://pro.tailark.com/
+- Check Zavata design system documentation
 - Ensure all new components follow these patterns
 
