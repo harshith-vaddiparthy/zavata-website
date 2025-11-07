@@ -7,6 +7,7 @@ import { cn } from '@/lib/utils'
 import LogoCloud from "@/components/logo-cloud"
 import FeaturesSection from "@/components/features-11"
 import HowItWorksSeven from "@/components/how-it-works-7"
+import IntegrationsSection from "@/components/integrations-9"
 
 export default function HeroSection() {
     return (
@@ -100,6 +101,9 @@ export default function HeroSection() {
                     </div>
                     <div className="border-b">
                         <HowItWorksSeven />
+                    </div>
+                    <div className="border-b">
+                        <IntegrationsSection />
                     </div>
                 </div>
             </main>
