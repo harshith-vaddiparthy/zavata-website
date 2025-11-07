@@ -8,6 +8,7 @@ import LogoCloud from "@/components/logo-cloud"
 import FeaturesSection from "@/components/features-11"
 import HowItWorksSeven from "@/components/how-it-works-7"
 import IntegrationsSection from "@/components/integrations-9"
+import Footer from "@/components/footer"
 
 export default function HeroSection() {
     return (
@@ -105,6 +106,7 @@ export default function HeroSection() {
                     <div className="border-b">
                         <IntegrationsSection />
                     </div>
+                    <Footer />
                 </div>
             </main>
         </>
