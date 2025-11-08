@@ -27,7 +27,7 @@ export default function IntegrationsSection() {
                 <div className="bg-muted @container py-16 md:py-20">
                     <div className="mx-auto max-w-5xl px-6">
                         <div className="mx-auto max-w-xl text-center">
-                            <h2 className="text-balance text-3xl font-semibold md:text-5xl md:tracking-tight">Powerful MCP Integrations</h2>
+                            <h2 className="text-balance text-3xl font-semibold md:text-5xl md:tracking-tight">Powerful Integrations</h2>
                             <p className="text-muted-foreground mb-6 mt-4 text-balance text-lg">Pull content from meeting notes (Fireflies, Otter, Granola), Slack conversations, web scraping, newsletters, and more to fuel your marketing automation.</p>
                             <Button
                                 variant="outline"
@@ -47,7 +47,7 @@ export default function IntegrationsSection() {
                             />
 
                             <IntegrationsGroup
-                                label="MCP Sources"
+                                label="Data Sources"
                                 className="@max-xl:row-start-3">
                                 <div className="grid grid-cols-2 gap-2">
                                     <IntegrationCard title="Meeting Notes">

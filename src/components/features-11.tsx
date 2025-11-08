@@ -38,7 +38,7 @@ export default function FeaturesSection() {
                                     </div>
                                 </div>
                                 <div className="relative z-10 mx-auto max-w-sm px-8 pb-8 text-center">
-                                    <h3 className="text-balance font-semibold">Smart MCP Integrations</h3>
+                                    <h3 className="text-balance font-semibold">Smart Data Integrations</h3>
                                     <p className="text-muted-foreground mt-3">Pull content from meeting notes, Slack, web scraping, and more to fuel your marketing automation.</p>
                                 </div>
                             </div>

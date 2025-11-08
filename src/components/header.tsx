@@ -92,7 +92,7 @@ const useCases: FeatureLink[] = [
     },
     {
         href: '#security',
-        name: 'MCP Integrations',
+        name: 'Data Integrations',
         description: 'Connect Slack, meetings, and more',
         icon: <Cpu className="stroke-foreground fill-blue-500/15" />,
     },

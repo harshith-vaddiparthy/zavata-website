@@ -36,7 +36,7 @@ export default function HowItWorksSeven() {
                                     </div>
                                     <div>
                                         <h3 className="text-foreground font-semibold">Gather Inputs</h3>
-                                        <p className="text-muted-foreground mt-2">Connect meeting notes, Slack conversations, web data, and newsletters via MCP integrations.</p>
+                                        <p className="text-muted-foreground mt-2">Connect meeting notes, Slack conversations, web data, and newsletters via smart integrations.</p>
                                     </div>
                                 </div>
                                 <div className="@4xl:border-r row-span-2 grid grid-rows-subgrid p-8">

@@ -31,7 +31,7 @@ export default function AIDashboardPreview() {
                         <div className="pt-3 pb-1">
                             <div className="text-[10px] font-medium text-muted-foreground px-2 mb-1">AI ENGINES</div>
                             <NavItem label="GEO Optimizer" small />
-                            <NavItem label="MCP Servers" small badge="5" />
+                            <NavItem label="Data Sources" small badge="5" />
                         </div>
                         
                         <div className="pt-3 pb-1">

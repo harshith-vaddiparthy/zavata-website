@@ -8,29 +8,26 @@ export const IntegrationsIllustration = () => (
         aria-hidden
         className="bg-foreground/5 group rounded-2xl">
         <div className="flex items-center justify-between px-6 py-2.5 text-sm font-medium">
-            <span>MCP Data Sources</span>
+            <span>Company Knowledge Base</span>
             <span className="text-muted-foreground text-xs">Live sync</span>
         </div>
         <div className="relative">
-            <div className="absolute inset-0 scale-100 opacity-100 blur-lg transition-all duration-300">
-                <div className="bg-linear-to-r/increasing animate-hue-rotate absolute inset-x-6 bottom-0 top-12 -translate-y-3 from-pink-400 to-purple-400"></div>
-            </div>
             <div className="bg-card ring-foreground/10 relative overflow-hidden rounded-2xl border border-transparent px-4 py-3 shadow-md shadow-black/5 ring-1">
-                <MCPDataCard
+                <DataSourceCard
                     icon={<Notion className="size-5" />}
                     source="Notion"
                     preview="Meeting notes: Discussed Q1 goals, increase engagement by 40%..."
                     timestamp="2 min ago"
                     status="synced"
                 />
-                <MCPDataCard
+                <DataSourceCard
                     icon={<Slack className="size-5" />}
                     source="Slack"
                     preview="#marketing: Let's highlight the new video feature in our launch..."
                     timestamp="5 min ago"
                     status="synced"
                 />
-                <MCPDataCard
+                <DataSourceCard
                     icon={<Gmail className="size-5" />}
                     source="Gmail"
                     preview="Newsletter feedback: Users love the new analytics dashboard..."
@@ -42,7 +39,7 @@ export const IntegrationsIllustration = () => (
     </div>
 )
 
-const MCPDataCard = ({ 
+const DataSourceCard = ({ 
     icon, 
     source, 
     preview, 
