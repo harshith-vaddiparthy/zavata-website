@@ -1,13 +1,13 @@
 import { Gemini } from '@/components/logos'
 import ClaudeAI from '@/components/logos/claude'
 import OpenAI from '@/components/logos/open-ai'
-import VSCode from '@/components/logos/vs-code'
-import { Vercel } from '@/components/logos/vercel'
 import { cn } from '@/lib/utils'
-import IntelliJIDEA from '@/components/logos/intellij'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import { Cloudflare } from '@/components/logos/cloudflare'
+import LinkedIn from '@/components/logos/linkedin'
+import Twitter from '@/components/logos/twitter'
+import YouTube from '@/components/logos/youtube'
+import { MessageSquare, FileText, Globe, Mail } from 'lucide-react'
 
 export default function IntegrationsSection() {
     return (
@@ -47,15 +47,15 @@ export default function IntegrationsSection() {
                             />
 
                             <IntegrationsGroup
-                                label="Meeting Notes"
+                                label="MCP Sources"
                                 className="@max-xl:row-start-3">
                                 <div className="grid grid-cols-2 gap-2">
-                                    <IntegrationCard>
-                                        <IntelliJIDEA />
+                                    <IntegrationCard title="Meeting Notes">
+                                        <FileText className="size-5 text-blue-600" />
                                     </IntegrationCard>
 
-                                    <IntegrationCard>
-                                        <VSCode />
+                                    <IntegrationCard title="Slack">
+                                        <MessageSquare className="size-5 text-purple-600" />
                                     </IntegrationCard>
                                 </div>
                             </IntegrationsGroup>
@@ -66,16 +66,16 @@ export default function IntegrationsSection() {
                             />
 
                             <IntegrationsGroup
-                                label="AI Video & Content"
+                                label="AI Models"
                                 className="@max-xl:col-span-4 @max-xl:w-3/4 @max-xl:row-start-1 @max-xl:place-self-center col-span-3">
                                 <div className="grid grid-cols-3 gap-2">
-                                    <IntegrationCard>
+                                    <IntegrationCard title="OpenAI">
                                         <OpenAI />
                                     </IntegrationCard>
-                                    <IntegrationCard>
+                                    <IntegrationCard title="Claude">
                                         <ClaudeAI />
                                     </IntegrationCard>
-                                    <IntegrationCard>
+                                    <IntegrationCard title="Gemini">
                                         <Gemini />
                                     </IntegrationCard>
                                 </div>
@@ -88,11 +88,11 @@ export default function IntegrationsSection() {
 
                             <IntegrationsGroup label="Distribution">
                                 <div className="grid grid-cols-2 gap-2">
-                                    <IntegrationCard>
-                                        <Cloudflare className="!w-7" />
+                                    <IntegrationCard title="LinkedIn">
+                                        <LinkedIn className="size-6" />
                                     </IntegrationCard>
-                                    <IntegrationCard>
-                                        <Vercel />
+                                    <IntegrationCard title="Twitter">
+                                        <Twitter className="size-5" />
                                     </IntegrationCard>
                                 </div>
                             </IntegrationsGroup>
@@ -113,8 +113,8 @@ const SquareDecorator = ({ className }: { className?: string }) => {
     )
 }
 
-const IntegrationCard = ({ children, className }: { children?: React.ReactNode; className?: string }) => {
-    return <div className={cn('bg-background ring-foreground/10 flex aspect-square size-full rounded-lg border border-transparent shadow ring-1 *:m-auto *:size-5', className)}>{children}</div>
+const IntegrationCard = ({ children, className, title }: { children?: React.ReactNode; className?: string; title?: string }) => {
+    return <div title={title} className={cn('bg-background ring-foreground/10 flex flex-col items-center justify-center gap-1 aspect-square size-full rounded-lg border border-transparent shadow ring-1 *:size-5', className)}>{children}</div>
 }
 
 const IntegrationsGroup = ({ children, label, className }: { children?: React.ReactNode; label?: string; className?: string }) => {
