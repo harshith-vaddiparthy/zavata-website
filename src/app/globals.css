@@ -295,13 +295,14 @@
     --ring: var(--color-white);
   }
 
-  * {
-    @apply outline-ring/50;
+  html {
+    overflow-x: clip;
   }
 
   body {
     @apply bg-background text-foreground;
-    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   body::before {
@@ -309,8 +310,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100vw;
+    height: 100vh;
     background: 
       radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.02) 0%, transparent 50%),
       radial-gradient(circle at 80% 80%, rgba(96, 165, 250, 0.015) 0%, transparent 50%),
@@ -322,12 +323,11 @@
         rgba(59, 130, 246, 0.015) 100%
       );
     pointer-events: none;
-    z-index: 0;
+    z-index: -1;
   }
 
-  body > * {
-    position: relative;
-    z-index: 1;
+  * {
+    @apply outline-ring/50;
   }
 
   .line{
