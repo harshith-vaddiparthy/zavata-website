@@ -1,7 +1,7 @@
-import { MemoryUsageIllustration } from "@/components/memory-usage-illustration"
-import { CampaignIllustration } from "@/components/campaign-illustration"
+import { DataSourcesIllustration } from "@/components/data-sources-illustration"
+import { AIContentIllustration } from "@/components/ai-content-illustration"
+import { DistributionIllustration } from "@/components/distribution-illustration"
 import { cn } from '@/lib/utils'
-import { PollIllustration } from "@/components/poll-illustration"
 
 export default function HowItWorksSeven() {
     return (
@@ -17,29 +17,29 @@ export default function HowItWorksSeven() {
             <SquareDecorator className="-bottom-[3.5px] right-3 -translate-x-[1.5px] sm:right-5 md:right-11" />
             
             <div className="relative border-x">
-                <div className="@container py-16 md:py-20">
+                <div className="@container py-12 md:py-16 lg:py-20 px-4 md:px-0">
                     <div className="mx-auto w-full max-w-5xl">
                         <div className="@4xl:text-left text-center">
-                            <h2 className="text-foreground text-3xl font-semibold">How Zavata Works</h2>
-                            <p className="text-muted-foreground mt-4 text-balance text-lg">
+                            <h2 className="text-foreground text-2xl sm:text-3xl font-semibold">How Zavata Works</h2>
+                            <p className="text-muted-foreground mt-3 sm:mt-4 text-balance text-base sm:text-lg">
                                 From data collection to content distribution, Zavata handles your entire <span className="text-foreground">marketing workflow</span> automatically.
                             </p>
                         </div>
-                        <div className="@max-4xl:max-w-sm relative mx-auto mt-12">
+                        <div className="@max-4xl:max-w-sm relative mx-auto mt-8 sm:mt-10 md:mt-12">
                             <div className="@4xl:grid-cols-3 grid overflow-hidden">
-                                <div className="@4xl:border-r row-span-2 grid grid-rows-subgrid p-8">
+                                <div className="@4xl:border-r row-span-2 grid grid-rows-subgrid p-6 md:p-8 border-b @4xl:border-b-0">
                                     <div
                                         aria-hidden
                                         className="relative flex flex-col justify-end">
                                         <Counter number={1} />
-                                        <CampaignIllustration />
+                                        <DataSourcesIllustration />
                                     </div>
                                     <div>
-                                        <h3 className="text-foreground font-semibold">Gather Inputs</h3>
-                                        <p className="text-muted-foreground mt-2">Connect meeting notes, Slack conversations, web data, and newsletters via smart integrations.</p>
+                                        <h3 className="text-foreground font-semibold text-base md:text-lg">Gather Inputs</h3>
+                                        <p className="text-muted-foreground mt-2 text-sm md:text-base">Connect meeting notes, Slack conversations, web data, and newsletters via smart integrations.</p>
                                     </div>
                                 </div>
-                                <div className="@4xl:border-r row-span-2 grid grid-rows-subgrid p-8">
+                                <div className="@4xl:border-r row-span-2 grid grid-rows-subgrid p-6 md:p-8 border-b @4xl:border-b-0">
                                     <div
                                         aria-hidden
                                         className="relative flex flex-col justify-end">
@@ -47,26 +47,26 @@ export default function HowItWorksSeven() {
                                         <div className="relative">
                                             <div className="bg-linear-to-br/increasing from-primary absolute inset-1/3 m-auto aspect-video rounded-full to-indigo-500 blur-3xl"></div>
                                             <div className="mask-y-from-55% mask-r-from-55% absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:2px_2px]"></div>
-                                            <PollIllustration />
+                                            <AIContentIllustration />
                                         </div>
                                     </div>
 
                                     <div>
-                                        <h3 className="text-foreground font-semibold">AI Content Creation</h3>
-                                        <p className="text-muted-foreground mt-2">Generate social posts, videos, newsletters, blog articles, and investor updates automatically.</p>
+                                        <h3 className="text-foreground font-semibold text-base md:text-lg">AI Content Creation</h3>
+                                        <p className="text-muted-foreground mt-2 text-sm md:text-base">Generate social posts, videos, newsletters, blog articles, and investor updates automatically.</p>
                                     </div>
                                 </div>
-                                <div className="row-span-2 grid grid-rows-subgrid p-8">
+                                <div className="row-span-2 grid grid-rows-subgrid p-6 md:p-8">
                                     <div
                                         aria-hidden
                                         className="relative flex flex-col justify-center">
                                         <Counter number={3} />
-                                        <MemoryUsageIllustration />
+                                        <DistributionIllustration />
                                     </div>
 
-                                    <div className="@4xl:mt-0 mt-8">
-                                        <h3 className="text-foreground font-semibold">Automated Distribution</h3>
-                                        <p className="text-muted-foreground mt-2">Content automatically posted to LinkedIn, Twitter, blogs, and all your marketing channels.</p>
+                                    <div className="@4xl:mt-0 mt-6 md:mt-8">
+                                        <h3 className="text-foreground font-semibold text-base md:text-lg">Automated Distribution</h3>
+                                        <p className="text-muted-foreground mt-2 text-sm md:text-base">Content automatically posted to LinkedIn, Twitter, blogs, and all your marketing channels.</p>
                                     </div>
                                 </div>
                             </div>

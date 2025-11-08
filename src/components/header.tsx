@@ -28,7 +28,7 @@ export default function HeaderOne() {
         <header
             role="banner"
             {...(isScrolled && { 'data-scrolled': true })}
-            className={cn('fixed inset-x-0 top-0 z-50 border-foregroud/5 border-b transition-all duration-300', 'in-data-scrolled:border-b in-data-scrolled:bg-background/75 in-data-scrolled:backdrop-blur')}>
+            className={cn('fixed inset-x-0 top-0 z-50 border-foregroud/5 border-b transition-all duration-300 bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60', 'in-data-scrolled:border-border/40')}>
             <div className="mx-auto max-w-6xl border-x px-6 lg:px-12">
                 <div className="relative flex flex-wrap items-center justify-center py-4 lg:py-5">
                     <Link

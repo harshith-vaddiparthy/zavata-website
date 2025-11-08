@@ -17,55 +17,55 @@ export default function FeaturesSection() {
             <SquareDecorator className="-bottom-[3.5px] -right-[3.5px]" />
             <SquareDecorator className="-bottom-[3.5px] right-3 -translate-x-[1.5px] sm:right-5 md:right-11" />
             
-            <div className="relative border-x py-16">
+            <div className="relative border-x py-12 md:py-16">
                 <div className="@container">
-                    <div className="mx-auto w-full max-w-5xl">
-                        <div className="@4xl:grid-cols-4 relative grid grid-cols-2 overflow-hidden">
+                    <div className="mx-auto w-full max-w-5xl px-4 md:px-0">
+                        <div className="@4xl:grid-cols-4 relative grid grid-cols-1 sm:grid-cols-2 overflow-hidden">
                             <div className="@4xl:col-span-2 @4xl:border-r col-span-full row-span-2 grid grid-rows-subgrid border-b">
-                                <div className="p-8">
+                                <div className="p-6 md:p-8">
                                     <div className="max-w-84 mx-auto w-full">
                                         <InvoiceIllustration />
                                     </div>
                                 </div>
-                                <div className="mx-auto max-w-sm px-8 pb-8 text-center">
-                                    <h3 className="text-balance font-semibold">Multi-Channel Content Creation</h3>
-                                    <p className="text-muted-foreground mt-3">Automatically generate social media posts, videos, newsletters, and blog articles from your company data.</p>
+                                <div className="mx-auto max-w-sm px-6 pb-6 md:px-8 md:pb-8 text-center">
+                                    <h3 className="text-balance font-semibold text-base md:text-lg">Multi-Channel Content Creation</h3>
+                                    <p className="text-muted-foreground mt-2 md:mt-3 text-sm md:text-base">Automatically generate social media posts, videos, newsletters, and blog articles from your company data.</p>
                                 </div>
                             </div>
                             <div className="@4xl:col-span-2 relative col-span-full row-span-2 grid grid-rows-subgrid border-b">
-                                <div className="p-8">
+                                <div className="p-6 md:p-8">
                                     <div className="@4xl:px-8 mx-auto max-w-sm">
                                         <IntegrationsIllustration />
                                     </div>
                                 </div>
-                                <div className="relative z-10 mx-auto max-w-sm px-8 pb-8 text-center">
-                                    <h3 className="text-balance font-semibold">Smart Data Integrations</h3>
-                                    <p className="text-muted-foreground mt-3">Pull content from meeting notes, Slack, web scraping, and more to fuel your marketing automation.</p>
+                                <div className="relative z-10 mx-auto max-w-sm px-6 pb-6 md:px-8 md:pb-8 text-center">
+                                    <h3 className="text-balance font-semibold text-base md:text-lg">Smart Data Integrations</h3>
+                                    <p className="text-muted-foreground mt-2 md:mt-3 text-sm md:text-base">Pull content from meeting notes, Slack, web scraping, and more to fuel your marketing automation.</p>
                                 </div>
                             </div>
 
-                            <div className="space-y-3 border-r p-8">
+                            <div className="space-y-2 md:space-y-3 sm:border-r p-6 md:p-8 border-b sm:border-b-0">
                                 <div className="flex items-center gap-2">
                                     <Zap className="text-foreground size-4" />
                                     <h3 className="text-sm font-medium">Auto-Distribution</h3>
                                 </div>
                                 <p className="text-muted-foreground text-sm">Content automatically published to LinkedIn, Twitter, blogs, and all your channels.</p>
                             </div>
-                            <div className="space-y-2 p-8 @4xl:border-r">
+                            <div className="space-y-2 p-6 md:p-8 @4xl:border-r border-b sm:border-b-0">
                                 <div className="flex items-center gap-2">
                                     <Cpu className="text-foreground size-4" />
                                     <h3 className="text-sm font-medium">Video Generation</h3>
                                 </div>
                                 <p className="text-muted-foreground text-sm">Create marketing videos using Sora API and other video generation tools.</p>
                             </div>
-                            <div className="space-y-2 border-r p-8">
+                            <div className="space-y-2 sm:border-r p-6 md:p-8 border-b sm:border-b-0">
                                 <div className="flex items-center gap-2">
                                     <Lock className="text-foreground size-4" />
                                     <h3 className="text-sm font-medium">Brand Consistency</h3>
                                 </div>
                                 <p className="text-muted-foreground text-sm">Maintain your brand voice and style across all generated content.</p>
                             </div>
-                            <div className="space-y-2 p-8">
+                            <div className="space-y-2 p-6 md:p-8">
                                 <div className="flex items-center gap-2">
                                     <Sparkles className="text-foreground size-4" />
                                     <h3 className="text-sm font-medium">AI-Powered</h3>
