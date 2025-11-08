@@ -57,13 +57,7 @@ export default function HeroSection() {
                                 <p className="text-muted-foreground mx-auto mb-8 mt-4 max-w-xl text-balance text-base sm:text-lg px-4">AI agents handle your entire marketing stack - from strategy and content to distribution and optimization.</p>
                                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 px-4 w-full sm:w-auto max-w-sm sm:max-w-none mx-auto">
                                     <Button asChild className="w-full sm:w-auto">
-                                        <Link href="#">Get Started Free</Link>
-                                    </Button>
-                                    <Button
-                                        asChild
-                                        variant="outline"
-                                        className="w-full sm:w-auto">
-                                        <Link href="#">See it in action</Link>
+                                        <Link href="#">Launching soon</Link>
                                     </Button>
                                 </div>
                             </div>
