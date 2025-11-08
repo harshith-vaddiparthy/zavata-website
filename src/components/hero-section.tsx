@@ -6,6 +6,7 @@ import HeroHeader from "@/components/header"
 import { cn } from '@/lib/utils'
 // import LogoCloud from "@/components/logo-cloud"
 import FeaturesSection from "@/components/features-11"
+import IntegrationsSection from "@/components/integrations-10"
 import HowItWorksSeven from "@/components/how-it-works-7"
 import Footer from "@/components/footer"
 import AIDashboardPreview from "@/components/ai-dashboard-preview"
@@ -84,6 +85,9 @@ export default function HeroSection() {
                     </div> */}
                     <div className="border-b">
                         <FeaturesSection />
+                    </div>
+                    <div className="border-b">
+                        <IntegrationsSection />
                     </div>
                     <div className="border-b">
                         <HowItWorksSeven />
