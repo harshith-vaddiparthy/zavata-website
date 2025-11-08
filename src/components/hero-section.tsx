@@ -16,12 +16,12 @@ export default function HeroSection() {
             <HeroHeader />
             <main
                 role="main"
-                className="overflow-x-hidden relative">
-                <div className="absolute inset-0 bg-gradient-to-b from-blue-500/3 via-blue-400/1 to-transparent pointer-events-none" />
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-400/6 rounded-full blur-3xl pointer-events-none" />
-                <div className="absolute top-[800px] right-0 w-[600px] h-[600px] bg-blue-300/3 rounded-full blur-3xl pointer-events-none" />
-                <div className="absolute top-[1500px] left-0 w-[700px] h-[700px] bg-blue-400/4 rounded-full blur-3xl pointer-events-none" />
-                <div className="mx-auto max-w-6xl border-x relative z-10">
+                className="relative isolate">
+                <div className="absolute inset-0 -z-10 bg-gradient-to-b from-blue-500/3 via-blue-400/1 to-transparent pointer-events-none" />
+                <div className="absolute -z-10 top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-400/6 rounded-full blur-3xl pointer-events-none" />
+                <div className="absolute -z-10 top-[800px] right-0 w-[600px] h-[600px] bg-blue-300/3 rounded-full blur-3xl pointer-events-none" />
+                <div className="absolute -z-10 top-[1500px] left-0 w-[700px] h-[700px] bg-blue-400/4 rounded-full blur-3xl pointer-events-none" />
+                <div className="mx-auto max-w-6xl border-x relative">
                     <section id="home">
                         <div className="relative border-b px-3 pb-10 pt-24 md:pb-20 md:pt-36">
                             <div>
