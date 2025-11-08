@@ -6,6 +6,7 @@ import HeroHeader from "@/components/header"
 import { cn } from '@/lib/utils'
 // import LogoCloud from "@/components/logo-cloud"
 import FeaturesSection from "@/components/features-11"
+import IntegrationsSection from "@/components/integrations-10"
 import HowItWorksSeven from "@/components/how-it-works-7"
 import Footer from "@/components/footer"
 import AIDashboardPreview from "@/components/ai-dashboard-preview"
@@ -53,7 +54,7 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <div className="mx-auto mt-8 max-w-3xl text-center md:mt-10">
-                                <h1 className="text-foreground text-balance text-3xl font-medium sm:text-4xl md:text-5xl lg:text-6xl px-2">GTM Stack for One Person Unicorns</h1>
+                                <h1 className="text-foreground text-balance text-3xl font-medium sm:text-4xl md:text-5xl lg:text-6xl px-2">GTM Stack for<br />One Person Unicorns</h1>
                                 <p className="text-muted-foreground mx-auto mb-8 mt-4 max-w-xl text-balance text-base sm:text-lg px-4">AI agents handle your entire marketing stack - from strategy and content to distribution and optimization.</p>
                                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 px-4 w-full sm:w-auto max-w-sm sm:max-w-none mx-auto">
                                     <Button asChild className="w-full sm:w-auto">
@@ -84,6 +85,9 @@ export default function HeroSection() {
                     </div> */}
                     <div className="border-b">
                         <FeaturesSection />
+                    </div>
+                    <div className="border-b">
+                        <IntegrationsSection />
                     </div>
                     <div className="border-b">
                         <HowItWorksSeven />
