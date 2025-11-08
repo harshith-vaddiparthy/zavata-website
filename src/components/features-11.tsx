@@ -2,6 +2,7 @@ import { IntegrationsIllustration } from "@/components/integrations-illustration
 import { Zap, Sparkles, Lock, Cpu } from 'lucide-react'
 import { InvoiceIllustration } from "@/components/invoice-illustration"
 import { cn } from '@/lib/utils'
+import IntegrationsSection from "@/components/integrations-10"
 
 export default function FeaturesSection() {
     return (
@@ -75,6 +76,7 @@ export default function FeaturesSection() {
                     </div>
                 </div>
             </div>
+            <IntegrationsSection />
         </div>
     )
 }
