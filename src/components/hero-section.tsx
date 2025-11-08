@@ -46,8 +46,8 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <div className="mx-auto mt-8 max-w-3xl text-center md:mt-10">
-                                <h1 className="text-foreground text-balance text-4xl font-medium sm:text-5xl lg:text-6xl">Your Complete AI Marketing Agency Replacement</h1>
-                                <p className="text-muted-foreground mx-auto mb-8 mt-4 max-w-xl text-balance text-lg">Automatically create and distribute marketing content across all channels. From social media posts to videos, newsletters to blog articles - Zavata handles it all.</p>
+                                <h1 className="text-foreground text-balance text-4xl font-bold font-mono tracking-tight uppercase sm:text-5xl lg:text-6xl">GTM Stack for One Person Unicorns</h1>
+                                <p className="text-muted-foreground mx-auto mb-8 mt-4 max-w-xl text-balance text-base font-mono tracking-wide">AI agents handle your entire marketing stack - from strategy and content to distribution and optimization.</p>
                                 <div className="flex items-center justify-center gap-4">
                                     <Button asChild>
                                         <Link href="#">Get Started Free</Link>
