@@ -1,2 +1,6 @@
 export { default as Gemini } from "@/components/logos/Gemini"
 export { default as Replit } from "@/components/logos/Replit"
+export { default as MagicUI } from "@/components/logos/MagicUI"
+export { default as VSCodium } from "@/components/logos/VSCodium"
+export { default as MediaWiki } from "@/components/logos/MediaWiki"
+export { default as GooglePaLM } from "@/components/logos/GooglePaLM"
