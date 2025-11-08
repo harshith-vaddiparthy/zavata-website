@@ -60,9 +60,6 @@ export default function AIDashboardPreview() {
                 <main className="flex-1 flex flex-col bg-background">
                     {/* Header */}
                     <header className="h-12 border-b flex items-center justify-between px-4">
-                        <div>
-                            <h1 className="text-sm font-semibold">Marketing Hub</h1>
-                        </div>
                         <div className="flex items-center gap-2">
                             <span className="text-[10px] text-muted-foreground">Auto-sync active</span>
                             <div className="size-1.5 rounded-full bg-foreground animate-pulse" />

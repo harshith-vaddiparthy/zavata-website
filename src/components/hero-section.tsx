@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import HeroHeader from "@/components/header"
 import { cn } from '@/lib/utils'
-import LogoCloud from "@/components/logo-cloud"
+// import LogoCloud from "@/components/logo-cloud"
 import FeaturesSection from "@/components/features-11"
 import HowItWorksSeven from "@/components/how-it-works-7"
 import IntegrationsSection from "@/components/integrations-9"
@@ -82,9 +82,9 @@ export default function HeroSection() {
                             </div>
                         </div>
                     </section>
-                    <div className="border-b">
+                    {/* <div className="border-b">
                         <LogoCloud />
-                    </div>
+                    </div> */}
                     <div className="border-b">
                         <FeaturesSection />
                     </div>
