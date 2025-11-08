@@ -131,6 +131,7 @@ export default function LogoCloud() {
 
     return (
         <section className="relative px-4 sm:px-6 md:px-12">
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-400/[0.008] via-blue-500/[0.012] to-blue-400/[0.008] pointer-events-none" />
             <SquareDecorator className="-left-[3.5px] -top-[3.5px]" />
             <SquareDecorator className="-top-[3.5px] left-3 translate-x-[1.5px] sm:left-5 md:left-11" />
             <SquareDecorator className="-right-[3.5px] -top-[3.5px]" />
