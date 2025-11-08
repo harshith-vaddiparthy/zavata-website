@@ -23,7 +23,7 @@ export default function HeroSection() {
                 <div className="absolute -z-10 top-[1500px] left-0 w-[700px] h-[700px] bg-blue-400/4 rounded-full blur-3xl pointer-events-none" />
                 <div className="mx-auto max-w-6xl border-x relative">
                     <section id="home">
-                        <div className="relative border-b px-3 pb-10 pt-24 md:pb-20 md:pt-36">
+                        <div className="relative border-b px-4 sm:px-6 pb-10 pt-24 md:pb-20 md:pt-36">
                             <div>
                                 <div className="relative mx-auto w-fit bg-gray-950/5 p-2">
                                     <div
@@ -42,23 +42,27 @@ export default function HeroSection() {
                                         <span className="text-title text-sm">Raising Pre-Seed funding</span>
                                         <span className="block h-3 w-px bg-gray-200"></span>
                                         <Link
-                                            href="#"
-                                            className="text-primary text-sm">
-                                            Read
+                                            href="mailto:hi@harshith.io?subject=Interest%20in%20Zavata%20Pre-seed&body=Hi%20Harshith%2C%0A%0AI'm%20interested%20in%20learning%20more%20about%20Zavata's%20pre-seed%20round.%20I'd%20love%20to%20discuss%20the%20opportunity.%0A%0ABest%20regards"
+                                            className="text-primary text-sm inline-flex items-center gap-1 hover:underline transition-all group">
+                                            Email
+                                            <svg className="size-3 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M17 7H7M17 7V17" />
+                                            </svg>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="mx-auto mt-8 max-w-3xl text-center md:mt-10">
-                                <h1 className="text-foreground text-balance text-4xl font-medium sm:text-5xl lg:text-6xl">GTM Stack for One Person Unicorns</h1>
-                                <p className="text-muted-foreground mx-auto mb-8 mt-4 max-w-xl text-balance text-lg">AI agents handle your entire marketing stack - from strategy and content to distribution and optimization.</p>
-                                <div className="flex items-center justify-center gap-4">
-                                    <Button asChild>
+                                <h1 className="text-foreground text-balance text-3xl font-medium sm:text-4xl md:text-5xl lg:text-6xl px-2">GTM Stack for One Person Unicorns</h1>
+                                <p className="text-muted-foreground mx-auto mb-8 mt-4 max-w-xl text-balance text-base sm:text-lg px-4">AI agents handle your entire marketing stack - from strategy and content to distribution and optimization.</p>
+                                <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 px-4 w-full sm:w-auto max-w-sm sm:max-w-none mx-auto">
+                                    <Button asChild className="w-full sm:w-auto">
                                         <Link href="#">Get Started Free</Link>
                                     </Button>
                                     <Button
                                         asChild
-                                        variant="outline">
+                                        variant="outline"
+                                        className="w-full sm:w-auto">
                                         <Link href="#">See it in action</Link>
                                     </Button>
                                 </div>

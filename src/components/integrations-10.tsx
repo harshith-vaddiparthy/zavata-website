@@ -29,12 +29,12 @@ import { Calendar } from 'lucide-react'
 export default function IntegrationsSection() {
     return (
         <section className="bg-background">
-            <div className="bg-muted/50 py-24">
-                <div className="mx-auto max-w-5xl px-6">
+            <div className="bg-muted/50 py-12 md:py-20 lg:py-24">
+                <div className="mx-auto max-w-5xl px-4 sm:px-6">
                     <div
                         aria-hidden
-                        className="space-y-3">
-                        <div className="flex flex-row-reverse justify-center gap-3">
+                        className="space-y-2 sm:space-y-3 overflow-hidden">
+                        <div className="flex flex-row-reverse justify-center gap-2 sm:gap-3 flex-wrap">
                             <IntegrationCard>
                                 <SiSlack className="size-6" />
                             </IntegrationCard>
@@ -48,7 +48,7 @@ export default function IntegrationsSection() {
                                 <SiHubspot className="size-6" />
                             </IntegrationCard>
                         </div>
-                        <div className="flex flex-row-reverse justify-center gap-3">
+                        <div className="flex flex-row-reverse justify-center gap-2 sm:gap-3 flex-wrap">
                             <IntegrationCard>
                                 <SiSalesforce className="size-6" />
                             </IntegrationCard>
@@ -65,7 +65,7 @@ export default function IntegrationsSection() {
                                 <Calendar className="size-6" />
                             </IntegrationCard>
                         </div>
-                        <div className="flex justify-center gap-3">
+                        <div className="flex justify-center gap-2 sm:gap-3 flex-wrap">
                             <IntegrationCard>
                                 <SiLinkedin className="size-6" />
                             </IntegrationCard>
@@ -85,7 +85,7 @@ export default function IntegrationsSection() {
                                 <Linear className="size-6" />
                             </IntegrationCard>
                         </div>
-                        <div className="flex justify-center gap-3">
+                        <div className="flex justify-center gap-2 sm:gap-3 flex-wrap">
                             <IntegrationCard>
                                 <SiReplit className="size-6" />
                             </IntegrationCard>
@@ -109,9 +109,9 @@ export default function IntegrationsSection() {
                             </IntegrationCard>
                         </div>
                     </div>
-                    <div className="mx-auto mt-12 max-w-lg text-center">
-                        <h2 className="text-balance text-3xl font-semibold md:text-4xl">Infinite Content</h2>
-                        <p className="text-muted-foreground mb-6 mt-4 text-balance">Connect your workspace, knowledge base, and communication tools. Zavata learns your story, generates authentic content, and distributes it everywhere so you can focus on building while marketing runs itself.</p>
+                    <div className="mx-auto mt-8 sm:mt-10 md:mt-12 max-w-lg text-center px-4">
+                        <h2 className="text-balance text-2xl sm:text-3xl font-semibold md:text-4xl">Infinite Content</h2>
+                        <p className="text-muted-foreground mb-4 sm:mb-6 mt-3 sm:mt-4 text-balance text-sm sm:text-base">Connect your workspace, knowledge base, and communication tools. Zavata learns your story, generates authentic content, and distributes it everywhere so you can focus on building while marketing runs itself.</p>
 
                         <Button
                             variant="outline"
@@ -127,5 +127,5 @@ export default function IntegrationsSection() {
 }
 
 const IntegrationCard = ({ children, className }: { children?: React.ReactNode; className?: string }) => {
-    return <div className={cn('bg-background ring-foreground/10 flex aspect-square size-11 rounded-full border border-transparent shadow-md ring-1 *:m-auto *:size-5', className)}>{children}</div>
+    return <div className={cn('bg-background ring-foreground/10 flex aspect-square size-9 sm:size-10 md:size-11 rounded-full border border-transparent shadow-md ring-1 *:m-auto *:size-4 sm:*:size-5', className)}>{children}</div>
 }

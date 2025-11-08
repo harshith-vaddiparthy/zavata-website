@@ -8,7 +8,7 @@ export default function AIDashboardPreview() {
         <div className="bg-illustration ring-border-illustration relative overflow-hidden shadow-xl shadow-black/10 ring-1">
             <div className="flex h-[550px]">
                 {/* Left Sidebar */}
-                <aside className="w-48 border-r flex flex-col bg-muted/30">
+                <aside className="hidden md:flex w-48 border-r flex-col bg-muted/30">
                     {/* Logo */}
                     <div className="h-12 border-b flex items-center px-3">
                         <div className="flex items-center gap-1.5">
