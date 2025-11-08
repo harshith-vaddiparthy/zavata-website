@@ -9,6 +9,7 @@ import FeaturesSection from "@/components/features-11"
 import HowItWorksSeven from "@/components/how-it-works-7"
 import IntegrationsSection from "@/components/integrations-9"
 import Footer from "@/components/footer"
+import AIDashboardPreview from "@/components/ai-dashboard-preview"
 
 export default function HeroSection() {
     return (
@@ -76,24 +77,7 @@ export default function HeroSection() {
                                 <SquareDecorator className="-bottom-[3.5px] -right-[3.5px]" />
                                 <SquareDecorator className="-bottom-[3.5px] right-3 -translate-x-[1.5px] sm:right-5 md:right-11" />
                                 <div className="bg-linear-to-b to-foreground/[0.025] relative border-x">
-                                    <div className="absolute inset-0">
-                                    <Image
-                                        className="size-full"
-                                        src="https://res.cloudinary.com/dohqjvu9k/image/upload/v1755171585/oxy-main_aimf7b.png"
-                                        alt="Zavata AI Marketing Platform"
-                                        width={1280}
-                                        height={720}
-                                        sizes="(max-width: 640px) 768px, (max-width: 768px) 1024px, (max-width: 1024px) 1280px, 1280px"
-                                    />
-                                </div>
-                                <Image
-                                    className="mix-blend-multiply"
-                                    src="https://res.cloudinary.com/dohqjvu9k/image/upload/v1755171584/oxy-nav_qqwzss.png"
-                                    alt="Zavata Dashboard"
-                                    width={1280}
-                                    height={720}
-                                    sizes="(max-width: 640px) 768px, (max-width: 768px) 1024px, (max-width: 1024px) 1280px, 1280px"
-                                />
+                                    <AIDashboardPreview />
                                 </div>
                             </div>
                         </div>
