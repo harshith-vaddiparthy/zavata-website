@@ -35,7 +35,7 @@ export default function HeroSection() {
                                         aria-hidden="true"
                                         className="absolute bottom-1 right-1 size-[3px] rounded-full bg-gray-950/20"></div>
                                     <div className="relative flex h-fit items-center gap-2 rounded-full bg-white px-3 py-1 shadow">
-                                        <span className="text-title text-sm">Zavata raises Pre-Seed funding</span>
+                                        <span className="text-title text-sm">Raising Pre-Seed funding</span>
                                         <span className="block h-3 w-px bg-gray-200"></span>
                                         <Link
                                             href="#"
@@ -46,8 +46,8 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <div className="mx-auto mt-8 max-w-3xl text-center md:mt-10">
-                                <h1 className="text-foreground text-balance text-4xl font-medium sm:text-5xl lg:text-6xl">Your Complete AI Marketing Agency Replacement</h1>
-                                <p className="text-muted-foreground mx-auto mb-8 mt-4 max-w-xl text-balance text-lg">Automatically create and distribute marketing content across all channels. From social media posts to videos, newsletters to blog articles - Zavata handles it all.</p>
+                                <h1 className="text-foreground text-balance text-4xl font-medium sm:text-5xl lg:text-6xl">GTM Stack for One Person Unicorns</h1>
+                                <p className="text-muted-foreground mx-auto mb-8 mt-4 max-w-xl text-balance text-lg">AI agents handle your entire marketing stack - from strategy and content to distribution and optimization.</p>
                                 <div className="flex items-center justify-center gap-4">
                                     <Button asChild>
                                         <Link href="#">Get Started Free</Link>
