@@ -17,11 +17,11 @@ export default function HeroSection() {
             <HeroHeader />
             <main
                 role="main"
-                className="relative isolate">
+                className="relative isolate overflow-x-clip">
                 <div className="absolute inset-0 -z-10 bg-gradient-to-b from-blue-500/3 via-blue-400/1 to-transparent pointer-events-none" />
-                <div className="absolute -z-10 top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-400/6 rounded-full blur-3xl pointer-events-none" />
-                <div className="absolute -z-10 top-[800px] right-0 w-[600px] h-[600px] bg-blue-300/3 rounded-full blur-3xl pointer-events-none" />
-                <div className="absolute -z-10 top-[1500px] left-0 w-[700px] h-[700px] bg-blue-400/4 rounded-full blur-3xl pointer-events-none" />
+                <div className="absolute -z-10 top-0 left-1/2 -translate-x-1/2 w-[400px] sm:w-[600px] md:w-[800px] h-[400px] sm:h-[600px] md:h-[800px] bg-blue-400/6 rounded-full blur-3xl pointer-events-none" />
+                <div className="absolute -z-10 top-[800px] -right-[150px] sm:-right-[100px] md:right-0 w-[300px] sm:w-[450px] md:w-[600px] h-[300px] sm:h-[450px] md:h-[600px] bg-blue-300/3 rounded-full blur-3xl pointer-events-none" />
+                <div className="absolute -z-10 top-[1500px] -left-[150px] sm:-left-[100px] md:left-0 w-[350px] sm:w-[500px] md:w-[700px] h-[350px] sm:h-[500px] md:h-[700px] bg-blue-400/4 rounded-full blur-3xl pointer-events-none" />
                 <div className="mx-auto max-w-6xl border-x relative">
                     <section id="home">
                         <div className="relative border-b px-4 sm:px-6 pb-10 pt-24 md:pb-20 md:pt-36">
@@ -54,7 +54,7 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <div className="mx-auto mt-8 max-w-3xl text-center md:mt-10">
-                                <h1 className="text-foreground text-balance text-3xl font-medium sm:text-4xl md:text-5xl lg:text-6xl px-2">GTM Stack for<br />One Person Unicorns</h1>
+                                <h1 className="text-foreground text-balance text-3xl font-medium sm:text-4xl md:text-5xl lg:text-6xl px-2">The Growth Stack for<br />One Person Unicorns</h1>
                                 <p className="text-muted-foreground mx-auto mb-8 mt-4 max-w-xl text-balance text-base sm:text-lg px-4">AI agents handle your entire marketing stack - from strategy and content to distribution and optimization.</p>
                                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 px-4 w-full sm:w-auto max-w-sm sm:max-w-none mx-auto">
                                     <Button asChild className="w-full sm:w-auto">

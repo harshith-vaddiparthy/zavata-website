@@ -303,6 +303,7 @@
     @apply bg-background text-foreground;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
   }
 
   body::before {
@@ -328,6 +329,11 @@
 
   * {
     @apply outline-ring/50;
+  }
+  
+  img, video {
+    max-width: 100%;
+    height: auto;
   }
 
   .line{
